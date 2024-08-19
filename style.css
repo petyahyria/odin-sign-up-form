@@ -93,11 +93,22 @@ input{
     border-radius: 4px;
 }
 
+
+
 input:focus{
+    outline: none;
     border-style: none;
     border: 1px solid #1E91D6;
     box-shadow: 2px 1px 5px #B7B6C2;
+    animation: red-border 0.5s ease;
 }
+
+input:invalid:focus{
+    border-style: none;
+    border: 1px solid #D72638;
+}
+
+
 
 label{
     color: #2D2E2E;
@@ -126,6 +137,21 @@ p{
 .log-in{
     color: #596D48;
     font-weight: 550;
+}
+
+.reference{
+    position: absolute;
+    top: 90vh;
+    padding-left: 5vw;
+    width: 37vw;
+    background-color: #02040277;
+    margin-top: auto;
+    margin-bottom: 40px;
+    color: whitesmoke;
+}
+
+a{
+    color: inherit;
 }
 
 
