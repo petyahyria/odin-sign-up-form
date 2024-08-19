@@ -15,14 +15,15 @@
 
 body{
     display: flex;
+    font-family: "Roboto", sans-serif;
 }
 
 .left-side{
-    padding-top: 25vh;
+    padding-top: 15vh;
     background-image: url(./images/bg-image.jpg);
     background-size: cover;
     height: 100vh;
-    width: 35vw;
+    width: 37vw;
 }
 
 .logo{
@@ -34,11 +35,97 @@ body{
 }
 
 .logo-img{
-    height: 5.2rem;
+    height: 6.8rem;
 }
 
 .logo-text{
     color: whitesmoke;
     font-family: "norsebold";
-    font-size: 5rem;
+    font-size: 6.5rem;
 }
+
+.right-side{
+    background-color: #F2F7F2;
+    width: 63vw;
+    padding-top: 6vh;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding: 0 15vw 0 50px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.3rem;
+    color: #2D2E2E;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+}
+
+form{
+    padding: 20px 8vw 20px 50px;
+    background-color: #FCFFF7;
+    height: 40vh;
+    width: 100%;
+    box-shadow: 2px 2px 2px #B7B6C2;
+}
+
+.input-fields{
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 2px;
+    height: 2rem;
+    width: 300px;
+    border-style: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:focus{
+    border-style: none;
+    border: 1px solid #1E91D6;
+    box-shadow: 2px 1px 5px #B7B6C2;
+}
+
+label{
+    color: #2D2E2E;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+button[type="submit"]{
+    height: 50px;
+    padding: 13px 50px;
+    background-color: #596D48;
+    font-weight: 600;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin: 30px 50px;
+}
+
+p{
+    font-size: 1.3rem;
+    margin: 0 50px;
+}
+
+.log-in{
+    color: #596D48;
+    font-weight: 550;
+}
+
+
