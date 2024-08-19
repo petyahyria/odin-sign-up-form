@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Sign up</title>
 </head>
 <body>
-    
+    <div class="left-side">
+        <div class="logo">
+            <img src="./images/odin-logo.png" alt="odin-logo">
+            <span class="logo-text">ODIN</span>
+        </div>
+    </div>
+    <div class="right-side">
+        <h2></h2>
+        <h2></h2>
+        <form id="sign-up-form" action="" method="post">
+            <h1>Let's do this!</h1>
+            <ul class="field-column">
+                <li class="input-field">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name">
+                </li>
+                <li class="input-field">
+                    <label for="email">EMAIL</label>
+                    <input type="text" name="last-name" id="last-name">
+                </li>
+                <li class="input-field">
+                    <label for="password">PASSWORD</label>
+                    <input type="text" name="password" id="password">
+                </li>
+            </ul>
+            <ul class="field-column">
+                <li class="input-field">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name">
+                </li>
+                <li class="input-field">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="text" name="" id="">
+                </li>
+                <li class="input-field">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="text" name="" id="">
+                </li>
+            </ul>
+        </form>
+        <button type="submit" form="sign-up-form" class="submit-button"></button>
+        <p>Already have an account? <span class="log-in">Log in</span></p>
+    </div>
 </body>
 </html>
